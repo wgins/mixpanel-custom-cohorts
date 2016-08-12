@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mixpanel Cohorts",
+  "description": "A Chrome extension to enable adding and removing of custom Cohorts within the Mixpanel web app.",
+  "version": "1.0.0",
+
+  "content_scripts": [{
+    "matches": ["https://*.mixpanel.com/*explore*"],
+    "js": ["injector.js"]
+  }],
+
+  "web_accessible_resources": [
+    "custom-cohorts.js",
+    "jquery.js"
+  ]
+}
