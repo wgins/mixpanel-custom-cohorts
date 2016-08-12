@@ -1,7 +1,7 @@
 # mixpanel-custom-cohorts
 Mixpanel Custom Cohorts
 
-A Chrome extension to enable adding and removing of custom cohorts within the Mixpanel web app.
+A Chrome extension to enable adding and removing of custom Cohorts within the Mixpanel web app.
 
 To install the extension:
 
@@ -13,7 +13,7 @@ Once installed, you can create Cohorts directly from the Mixpanel Explore report
 
 ![](MixpanelExplore.gif)
 
-You can then use the Cohorts you created using the Cohorts property in any Mixpanel report:
+You can then use the Cohorts you created using the "Cohort" property in any Mixpanel report:
 
 ![](MixpanelCohorts.gif)
 
